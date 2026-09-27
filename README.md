@@ -31,4 +31,20 @@ To streamline user onboarding and ensure standardized software availability, cor
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/b2809fad-1143-4b96-b8c4-fe1ca06caff4" /> 
 <img width="250" alt="Screenshot_20260926_225321_One UI Home" src="https://github.com/user-attachments/assets/f61e9161-21a6-4f51-8483-f4d07d60c97e" />
 
+### Endpoint Security (BitLocker Encryption)
 
+To ensure data at rest remains secure, a BitLocker encryption profile was deployed via Intune's Endpoint Security blade. The policy mandates silent, full-disk encryption on managed Windows endpoints and automatically escrows the BitLocker Recovery Keys directly into Microsoft Entra ID for secure Help Desk retrieval.
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/e198491e-4c00-4b40-a808-44c703abaa0c" />
+
+### Remote Script Execution (PowerShell)
+
+To automate administrative tasks and provision local resources, custom PowerShell scripts were deployed via Intune. This demonstrates the ability to execute background configurations, modify local filesystems, and manage endpoints at scale without disrupting the end-user experience.
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/f198caf1-6033-4584-941e-b03f5a5683d7" />
+
+### Remote Help Desk Management & Device Wipe
+
+To simulate a lost or stolen device scenario, remote Help Desk actions were executed directly from the cloud console. A remote device wipe was initiated to securely erase corporate data and factory reset the endpoint, ensuring data loss prevention (DLP) without requiring physical access to the machine.
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/d4b9bc96-b807-42cd-9bca-a11509ea2ba8" />
