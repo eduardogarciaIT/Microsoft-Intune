@@ -26,7 +26,7 @@ To mitigate unauthorized hardware usage and harden the endpoint, a Configuration
 
 To streamline user onboarding and ensure standardized software availability, corporate applications were deployed silently via Intune. Microsoft 365 Apps were pushed directly to the managed endpoints over the cloud, eliminating the need for manual installations or local administrative privileges.
 
-<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/a3e2e47c-c089-4d84-8b7c-862492e7fb6a" /
+<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/a3e2e47c-c089-4d84-8b7c-862492e7fb6a" />>
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/9068aa3f-fc34-4438-a981-da39860d512d" />>
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/b2809fad-1143-4b96-b8c4-fe1ca06caff4" />
 
